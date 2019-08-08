@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "labels": {},
+    "contents": {
+        "doc": {
+            "templates" : {
+                "type" : "tags", 
+                "value" : { "or" : ["template"]},
+                "description": "template tag"
+            }
+        }
+    }
+}
