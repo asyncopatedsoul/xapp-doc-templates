@@ -5,7 +5,7 @@ import jszip from 'jszip';
 // Regex replace all placeholders with their values based on a dictionary
 // Rezip file
 
-const r = /{{\s*([a-zA-Z0-9]+\s*[a-zA-Z0-9]+)\s*}}/g;
+const r = /{{\s*([a-zA-Z0-9_\-]+\s*[a-zA-Z0-9_\-]+)\s*}}/g;
 
 class Templater {
   constructor() {
